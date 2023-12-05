@@ -11,6 +11,6 @@ convert(azn, usdCurr);
 convert(azn, eurCurr);
 convert(azn, tryCurr);
 
-let netice = `${azn}AZN = ${azn * usdCurr} Dollar, ${azn} = ${azn  * eurCurr} Euro, ${azn} = ${azn * tryCurr} Turk lirasi`
+let netice = `${azn} AZN = ${azn * usdCurr} Dollar, ${azn} AZN = ${azn  * eurCurr} Euro, ${azn} AZN = ${azn * tryCurr} Turk lirasi`
 
 document.getElementById('valy').innerHTML = netice
