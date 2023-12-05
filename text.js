@@ -11,9 +11,9 @@ convert(azn, usdCurr);
 convert(azn, eurCurr);
 convert(azn, tryCurr);
 
-let netice = `${azn} AZN = ${azn * usdCurr} Dollar`;
-let netice2 = `${azn} AZN = ${azn  * eurCurr} Euro`;
-let netice3 = `${azn} AZN = ${azn * tryCurr} Turk lirasi`;
+let netice = `${azn} AZN = ${azn * usdCurr} Dollar edecek`;
+let netice2 = `${azn} AZN = ${azn  * eurCurr} Euro edecek`;
+let netice3 = `${azn} AZN = ${azn * tryCurr} Turk lirasi edecek`;
 
 document.getElementById('valy').innerHTML = netice
 document.getElementById('valy2').innerHTML = netice2
